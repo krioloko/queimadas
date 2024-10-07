@@ -1,10 +1,11 @@
-import pandas as pd
-import matplotlib.pyplot as plt
-import seaborn as sns
-import geopandas as gpd
 import folium
-from folium.plugins import HeatMap
+import geopandas as gpd
+import matplotlib.pyplot as plt
+import pandas as pd
+import seaborn as sns
 import streamlit as st
+from folium.plugins import HeatMap
+
 
 # Carregando os dados
 @st.cache_data
